@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+header {
+    display: inline-flex;
+    width: 1040px;
+    height: 80px;
+    margin: 0, 0, 200px, 10px;
+    text-indent: 15px;
+    text-align: left;
+ }
+
+body {
+    background-color: rgb(215, 250, 245);
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 400px; ;
+}
+
+h1 {
+    font-size:50px;
+    font-family: 'Pacifico', cursive;
+    color:darkblue;
+}
+
+a {
+    text-decoration: underline;
+    color:rgb(5, 5, 78);
+}
+
+.titlemain {
+    border: 2px solid gold;
+    display:block;
+    width: 300px;
+    height: 50px;
+    font-size:50px;
+    font-style: oblique;
+    color: rgb(69, 30, 210)
+}
+
+.title {
+    width: 80px;
+    height: 80px;
+    font-optical-sizing: 30px;
+}
+
+.film {
+    display: inline-block;
+    width: 450px;
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: black;*/
+    border: 2px solid black;
+    /*padding-bottom: 10px;*/
+    /*margin-bottom: 20px;*/
+    padding: 20px 20px;
+    margin: 0 10px 0 0;
+        border-radius: 10px;
+}
+
+.menu {
+    display: inline-block;
+    width: 300px;
+    margin-top: auto;
+    padding: 10px;
+    border: 2px ridge rgb(5, 5, 78);
+    text-align: center;
+    box-shadow: inset;
+}
+
+.menu-link {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.hero {
+    color: rgba(30, 14, 124, 0.795);
+    font-weight: 700; 
+}
+
+ul {
+    list-style-type: square;
+}
+
+.roman {
+    list-style-type: upper-roman;
+}
+
+.latin {
+    list-style-type: upper-latin;
+}
+
+.colour {
+    color: rgb(12, 5, 53);
+}
+
+#spisok {
+font-style: italic;
+}
