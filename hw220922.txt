@@ -1,0 +1,10 @@
+//the file is on the server:
+ec2-user@ip-172-31-33-20:/opt/39_40_evening_a/Nag/HW22_09_2022/taskNAG.sh
+
+#!/bin/bash
+for run in {1..10}
+do
+export FILENAME=$run
+export ND=$(date +%d%m%y)
+touch /opt/39_40_evening_a/Nag/HW22_09_2022/$FILENAME"_"$ND.txt
+done
