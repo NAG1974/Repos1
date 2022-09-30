@@ -1,0 +1,39 @@
+All files are on the server:
+/opt/39_40_evening_a/Nag/
+
+//first file sleeper.sh
+#!/bin/bash
+for run in {1..10}
+do
+date +"%T"
+ps -ef | wc -l
+sleep 5
+done
+
+//second file sleeper2.sh
+#!/bin/bash
+for run in {1..10}
+do
+date +"%T"
+ps -ef | wc -l
+sleep 1
+done
+
+//third file nameOS.sh
+#!/bin/bash
+cat /etc/os-release | grep -w "NAME" > nameOS.txt
+cat nameOS.txt
+
+//fourth file nameOS2.sh
+#!/bin/bash
+cat /etc/os-release | grep -w "NAME" | sed 's/NAME=//g' > nameOS2.txt
+cat nameOS2.txt
+
+//fifth file fileCreator.sh
+#!/bin/bash
+for run in {50..100}
+do
+export FILENAME=$run
+mkdir -p /opt/39_40_evening_a/Nag/files/
+touch /opt/39_40_evening_a/Nag/files/$FILENAME.txt
+done
