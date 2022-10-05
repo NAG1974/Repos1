@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Oswald:wght@500&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+display: flex;  
+align-items: center;
+justify-content: space-between;
+padding: 15px 70px;
+background-color: #1ABC9C;
+}
+
+nav a {
+font-size: 25px;
+line-height: 30px;
+color: #000;
+margin-right: 20px;
+}
+
+.logo {
+    width: 101px;
+height: 29px;
+}
+
+.social a {
+    margin-right: 20px;
+}
+
+.last_link {
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_left .about_right {
+    width: 50%;
+}
+
+/* .about_left img {
+    width: 100%;
+} */
+
+.about_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 70px 0 62px;  
+}
+
+.about_right p {
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+}
+
+.about_right h2 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 23px ;
+}
+
+.projects {
+    background-color: #DCFFEB;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h2 {
+    font-weight: 400;
+    font-size: 35px;
+    padding: 136px 70px 50px;
+    text-align: left;
+}
+
+.inf_pro {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 59px 137px 70px;
+}
+
+#rectangle{
+    margin-top: 44.6px;
+    width: 68.53px;
+    height: 5.95px;
+    background: #F7654A;
+    margin-bottom: 14.87px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 19.82px;
+    color: #404149;
+    text-align: left;
+}
+
+.arena {
+    display: inline-block;
+    margin: 0;
+    width: 436.08px;
+}
+
+
+.arena img {
+    width: 436.08px;
+    padding-bottom: 36px;
+}
+
+.arena p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+footer {
+    display: flex;
+    padding: 126px 69px 177px 69px;
+}
+
+.all_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+padding-top: 55px;
+}
+.contact {
+    display: inline-block;
+    width: 316px;
+}
+
+.contact img {
+    font-size: 48px;
+line-height: 40px;
+
+color: #F7654A;
+}
+.contact h3 {
+    font-family: 'Oswald';
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #999999;
+padding-bottom: 25px;
+}
+
+.contact p {
+    font-family: 'Oswald';
+    font-weight: 315px;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #000;
+}
+
