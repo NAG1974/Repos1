@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Merriweather:wght@700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+nav a {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222;
+}
+
+.title_all {
+    display: flex;
+    width: 1116px;
+    padding-left: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    width: 671px;
+}
+
+h1 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFF;
+    padding: 280px 0 80px 0;
+    width: 1116px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 24px;
+    color: #BDBDBD;
+    padding: 140px 0 40px;
+    
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.blue button {
+    width: 270px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 18px;
+    background-color: #005FA3;
+    color: #fff;
+    cursor: pointer;
+}
+.blue button:hover {
+    background-color: #0d3fcad5;
+}
+
+.main {
+    background: url('../img/main_bg.png') no-repeat;
+    color: #fff;
+}
+
+.main_text {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.butt_place button {
+    float: left;
+}
+
+.butt_place {
+    width: 1116px;
+    margin-bottom: 70px;
+}
+/* .butt_main {
+    margin-bottom: 70px;
+} */
+
+.main_scroll {
+    display: flex;
+    flex-direction: row;
+    width: 1116px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 113px;
+} 
+li {
+    display: inline-block;
+}
+li:before {
+    content: "\00BB \0020";
+    margin-left: 15px;
+}
+
+.scroll button {
+    width: 60px;
+    height: 60px;
+    background: #FFF;
+    opacity: 0.2;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.big {
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+.scroll button:hover {
+background-color: #BDBDBD;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background: #EBEBEB;
+}
+.service_text {
+    width: 1116px;
+}
+.service_title {
+    padding-bottom: 102px;
+}
+
+.serv_butt {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1116px;
+    padding-bottom: 140px;
+}
+.service button {
+    background: url('../img/service.png');
+    width: 350px;
+    height: 360px;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    padding: 0 0 45px 45px;
+    margin: 0 15px 15px 0;
+    cursor: pointer;
+}
+.service button:hover {
+    background: url('../img/service_click.png');
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background: #fff;
+}
+.about .container {
+    display: flex;
+}
+.about_left, .about_right {
+    width: 50%;
+}
+.about_firma {
+    padding-bottom: 60px;
+}
+.firma {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #005FA3;
+}
+.about_text {
+    width: 445px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 219px;
+}
+
+.abiut_butt {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    
+}
+
+.about_butt button {
+    background: #EBEBEB;;
+    width: 255px;
+    height: 255px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0 40px 40px;
+    margin: 0 15px 15px 0;
+    cursor: pointer;
+}
+.ab_but_num {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.ab_but_text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+.ab_but_click {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px
+    text-decoration: none;
+    color: #005FA3;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto; 
+}
+
+.contacts_title {
+    padding: 122px 0 60px;
+}
+
+.contacts {
+    /* background-image: url('../img/City.png');
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* background-position: 100px; */
+    background: url('../img/contact_bg.png') no-repeat;
+    /* background-size: 100% 100%; */
+    color: #fff;
+}
+
+.contacts_text {
+    width: 445px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 80px;
+}
+.contacts_links {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.contact_link {
+    display: flex;
+    justify-items: center;
+}
+
+.contact_link a {
+    color: #fff;
+    padding-left: 15.57px;
+    padding-right: 40px;
+    padding-bottom: 242px;
+    text-decoration: none;
+}
+
+.contacts .container {
+    display: flex;
+}
+
+.contacts-left, .contacts-right {
+    width: 50%;
+}
+
+.phone_img {
+    Width: 17.43px;
+    Height: 30px;
+}
+
+.envel_img {
+    Width: 39.43px;
+    Height: 30px;
+}
+
+.contacts-left {
+    padding-right: 100px;
+}
+
+.contacts-right form {
+    padding-top: 135px;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+}
+.name-style {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-right: 30px;
+   
+}
+.inp-name-style {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    padding: 15px 0;
+    background-color: transparent;
+    color: #fff;
+}
+
+.contacts-right input {
+    width: 255px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.message {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box {
+    padding-top: 15px;
+    width: 540px;
+    height: 120px;
+    resize: none;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.contacts-right input::placeholder {
+    color: #BDBDBD;
+}
+
+.contacts-right button {
+    float: right;
+}
+.button {
+    width: 540px;
+}
