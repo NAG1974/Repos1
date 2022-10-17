@@ -526,3 +526,7 @@ footer {
 .copyright img {
     margin-right: 15px;
 }
+
+.logo-footer-short {
+    display: none;
+}
