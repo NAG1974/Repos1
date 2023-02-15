@@ -1,0 +1,12 @@
+list = [
+{'id': 1,
+'fullname': 'Xx Yy',
+'age': 31,
+'salary': '300',
+'position': 'boss'},
+{'id': 1,
+'fullname': 'Xx Yy',
+'age': 31,
+'salary': '300',
+'position': 'boss'}
+]
